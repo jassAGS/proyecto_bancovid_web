@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+button{
+    background: red;
+    border: white;
+}
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+p{
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+    font-size:30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+div.portada{
+    height: 100vh;
+    background: url(../img/singapore-river-255116_1280.jpg);
+    background-size:cover ;
+
+}
+div.portada div.header{
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+div.portada div.header div{
+    width: 50%;
+    float: left;
+}
+
+div.portada div.header div.logo{
+    text-align: left;
+  
+}
+
+div.portada div.header div.reg{
+    text-align: right;
+
+}
+
+div.portada div.header div.reg button{
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+
+
+}
+
+div.portada div.contenedor-inicio{
+    width: 50%;
+    margin: auto;
+}
